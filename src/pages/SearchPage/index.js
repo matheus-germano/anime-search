@@ -28,6 +28,7 @@ export default function Index() {
   // Filtering animes
   useEffect(() => {
     if (search !== '') {
+      setSearchedAnime({})
       fetch(`${api}anime?filter[text]=${search}&page[limit]=12`)
         .then((response) => response.json())
         .then((response) => {
