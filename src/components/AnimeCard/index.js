@@ -6,8 +6,6 @@ import styles from '../../styles/components/AnimeCard/AnimeCard.module.scss'
 export default function Index({ anime }) {
   return (
     <div className={styles.cardContainer}>
-      {/* <p>{anime.attributes.canonicalTitle}</p>
-      <p>{anime.attributes.averageRating}</p> */}
       <div className={styles.cardImage}>
         <div className={styles.animeRating}>
           <p>{anime.attributes.averageRating}</p>

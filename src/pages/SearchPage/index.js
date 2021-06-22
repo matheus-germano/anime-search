@@ -58,12 +58,17 @@ export default function Index() {
       <div className={styles.animeListContainer}>
         <div className={styles.animeListWrapper}>
           {
+            // Verifying if we are searching or don't
+            // If it's true, then will show all available shows
             search === '' ?
               animes.data && (
                 animes.data.map((anime) => (
                   <AnimeCard anime={anime} key={anime.id} />
                 ))
               ) :
+
+              // Else, means that we are searching for an anime,
+              // so will appear shows filtereds by our search
               searchedAnime.data && (
                 searchedAnime.data.map((anime) => (
                   <AnimeCard anime={anime} key={anime.id} />
@@ -72,6 +77,8 @@ export default function Index() {
           }
         </div>
         {
+          // If our search don't match with any result, 
+          // will shows up a error message
           searchedAnime.data && (
             search !== '' && searchedAnime.data.length === 0
               ? (<p>Nenhum anime encontrado.</p>)
