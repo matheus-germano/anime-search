@@ -16,6 +16,21 @@
     font-weight: bold;
     font-size: 2.4rem;
   }
+
+  .headerImage {
+    width: 32px;
+    height: 100%;
+
+    margin-left: 10px;
+  }
+}
+
+.SearchPageHeader {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .searchInputContainer {

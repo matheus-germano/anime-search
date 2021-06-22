@@ -53,6 +53,25 @@ html {
   font-size: 2.4rem;
 }
 
+.SearchPageContainer .headerImage {
+  width: 32px;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.SearchPageHeader {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .searchInputContainer {
   width: 300px;
   height: 50px;
