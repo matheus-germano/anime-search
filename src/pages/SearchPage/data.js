@@ -79,5 +79,32 @@ export const animes = [
     episodes: '220',
     finished: true,
     rating: '5.0'
-  }
+  },
+  {
+    id: 10,
+    name: 'Death Note',
+    description: '',
+    coverImage: 'https://img1.ak.crunchyroll.com/i/spire4/697c8b5ff2f49a97348b5507c06e11831576116356_full.jpg',
+    episodes: '37',
+    finished: true,
+    rating: '5.0'
+  },
+  {
+    id: 11,
+    name: 'Black Clover',
+    description: '',
+    coverImage: 'https://img1.ak.crunchyroll.com/i/spire3/501db6b69ced79e79a556b20cbdb9c5d1609784936_full.jpg',
+    episodes: '170',
+    finished: true,
+    rating: '5.0'
+  },
+  {
+    id: 12,
+    name: 'Kimetsu no Yaiba',
+    description: '',
+    coverImage: 'https://img1.ak.crunchyroll.com/i/spire3/f1fe5c7a43cb2f38f4152a58f89479821554508873_full.jpg',
+    episodes: '26',
+    finished: false,
+    rating: '5.0'
+  },
 ];
