@@ -1,1 +1,143 @@
-/* No CSS *//*# sourceMappingURL=SearchPage.module.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f2f5;
+  color: #333;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.SearchPageContainer {
+  width: 100%;
+  max-width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.SearchPageContainer h1 {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.searchInputContainer {
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px auto;
+}
+
+.searchInput {
+  width: 80%;
+  height: 50px;
+  padding: 20px;
+  background-color: transparent;
+  color: #333;
+}
+
+.searchInput::-webkit-input-placeholder {
+  color: #999;
+}
+
+.searchInput:-ms-input-placeholder {
+  color: #999;
+}
+
+.searchInput::-ms-input-placeholder {
+  color: #999;
+}
+
+.searchInput::placeholder {
+  color: #999;
+}
+
+.searchIcon {
+  height: 50px;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.searchIcon svg {
+  margin: 0 auto;
+  font-size: 2.4rem;
+}
+
+.animeListContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.animeListWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=SearchPage.module.css.map */

@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f2f5;
+  color: #333;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1.6rem "Inter", sans-serif;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+/*# sourceMappingURL=global.module.css.map */
