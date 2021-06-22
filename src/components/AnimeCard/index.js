@@ -6,20 +6,22 @@ import styles from '../../styles/components/AnimeCard/AnimeCard.module.scss'
 export default function Index({ anime }) {
   return (
     <div className={styles.cardContainer}>
+      {/* <p>{anime.attributes.canonicalTitle}</p>
+      <p>{anime.attributes.averageRating}</p> */}
       <div className={styles.cardImage}>
         <div className={styles.animeRating}>
-          <p>{anime.rating}</p>
+          <p>{anime.attributes.averageRating}</p>
           <AiFillStar />
         </div>
-        <img src={anime.coverImage} alt="" />
+        <img src={anime.attributes.posterImage.medium} alt="" />
       </div>
       <div className={styles.cardBody}>
-        <h1>{anime.name}</h1>
-        <p>{anime.description}</p>
+        <h1>{anime.attributes.canonicalTitle}</h1>
+        <p>{anime.attributes.description}</p>
       </div>
       <div className={styles.cardFooter}>
-        <p>{anime.episodes} episódios</p>
-        {anime.finished ? (<p>Anime finalizado.</p>) : <p>Sendo lançado.</p>}
+        <p>{anime.attributes.episodeCount} episódios</p>
+        {anime.attributes.status === 'finished' ? (<p>Anime finalizado.</p>) : <p>Sendo lançado.</p>}
       </div>
     </div>
   )
