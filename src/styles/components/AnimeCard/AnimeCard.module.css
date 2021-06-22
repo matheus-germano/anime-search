@@ -36,6 +36,7 @@ html {
   margin: 20px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .cardContainer:hover {
