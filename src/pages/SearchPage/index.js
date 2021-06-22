@@ -19,6 +19,7 @@ export default function Index() {
           className={styles.searchInput}
           type="text"
           placeholder="Procure por um anime..."
+          autocomplete='off'
           value={search}
           onChange={(e) => setSearch(e.target.value) }
         />
