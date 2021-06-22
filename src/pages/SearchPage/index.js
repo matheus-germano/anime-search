@@ -57,6 +57,7 @@ export default function Index() {
       </div>
       <div className={styles.animeListContainer}>
         <div className={styles.animeListWrapper}>
+          {search && !animes.data && <p>Carregando...</p>}
           {
             // Verifying if we are searching or don't
             // If it's true, then will show all available shows
