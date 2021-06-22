@@ -14,7 +14,7 @@ body,
 input,
 textarea,
 button {
-  font: 400 1rem "Inter", sans-serif;
+  font: 400 1.6rem "Inter", sans-serif;
 }
 
 input,
@@ -101,6 +101,12 @@ html {
 
 .cardBody h1 svg {
   margin: 0 auto;
+}
+
+.cardBody p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .cardFooter {

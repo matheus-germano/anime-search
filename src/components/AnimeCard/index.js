@@ -11,7 +11,7 @@ export default function Index({ anime }) {
           <p>{anime.attributes.averageRating}</p>
           <AiFillStar />
         </div>
-        <img src={anime.attributes.posterImage.medium} alt="" />
+        <img src={anime.attributes.posterImage.original} alt="" />
       </div>
       <div className={styles.cardBody}>
         <h1>{anime.attributes.canonicalTitle}</h1>
